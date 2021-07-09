@@ -1,0 +1,26 @@
+.lottie-container {
+  position: relative;
+  // height: 70px;
+  // width: 100px;
+  // border: 1px solid red;
+  // right: 300px;
+  // max-width: 0px;
+  // max-height: 0px;
+  width: 100%;
+
+  &__file {
+    position: absolute;
+    width: 70px;
+    top: -20px;
+    // opacity: .5;
+    // border: 1px solid white;
+  }
+  &__homepage {
+    // border: 1px solid red;
+    width: 20%;
+    // position: absolute;
+    // opacity: 0.3;
+    // top:auto;
+    // left: auto;
+  }
+}

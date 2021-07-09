@@ -1,0 +1,92 @@
+@media screen and (max-width: 800px) {
+  .contact-me-container {
+  flex-direction: column !important;
+  // justify-content: center;
+     form {
+       margin-top: 50px !important;
+
+      .line {
+      }
+      .button {
+
+      }
+    }
+    input {
+
+    }
+    label {
+ 
+      
+    }
+    div {
+
+      
+    }
+    textarea {
+
+    }
+    .bouncyBalls {
+      min-width: 300px !important;
+      margin-top: -20px !important;
+    }
+  }
+}
+
+
+.contact-me-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  form {
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
+    max-width: 320px;
+    margin-top: -150px;
+    .line {
+      border-bottom: 2px solid whitesmoke;
+    }
+    .button {
+      margin-top: 20px;
+      border-radius: 70px;
+      height: 70px;
+      border: 4px solid $dark-navbar-color; 
+      background-color: $light-navbar-color;
+      font-weight: bold;
+      color: whitesmoke;
+      font-size: 1.2rem;
+    }
+  }
+  input {
+    margin-bottom: 20px;
+    height: 40px;
+    min-width: 320px;
+  }
+  label {
+    display: flex;
+    // margin-left: 0px;
+    font-weight: bold;
+    color: whitesmoke;
+    
+  }
+  div {
+    color: whitesmoke;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    
+  }
+  textarea {
+    height: 120px;
+    min-width: 320px;
+  }
+  .bouncyBalls {
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+    
+  }
+}
